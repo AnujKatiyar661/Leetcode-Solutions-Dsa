@@ -17,6 +17,6 @@ class Solution {
         {
             answer[i] = (int)Math.abs(leftSum[i] - rightSum[i]);
         }
-        return answer; //return // statement
-        }
+        return answer;
+    }
 }
