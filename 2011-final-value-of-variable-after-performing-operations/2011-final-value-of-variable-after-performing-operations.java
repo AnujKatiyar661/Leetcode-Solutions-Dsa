@@ -5,9 +5,9 @@ class Solution {
     public int finalValueAfterOperations(String[] operations) {
         Map<String,String> operationMap = new HashMap<>();
         
-        /**
+    /**
             Map the Operations
-         */
+        */
         operationMap.put("X++","+");
         operationMap.put("++X","+");
         operationMap.put("--X","-");
